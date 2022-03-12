@@ -14,7 +14,7 @@ export default function Home() {
         <h2>brought to you by Elizabeth Barrios & Dylan Goings</h2>
 
         <p className="description">
-          Friday, June 24th, 2022
+          Friday, June 24th, 2022, 6:00pm EST
         </p>
         <p className="description">
           <a href="https://goo.gl/maps/Ge6i28KAUbpqtEdU7">Ypsilanti Freighthouse</a><br />
@@ -25,7 +25,7 @@ export default function Home() {
           <Link href="/faq">
             <a className="card">
               <h3>FAQs &rarr;</h3>
-              <p>Find in-depth information about Next.js features and API.</p>
+              <p>The answers to life, the universe, and everything</p>
             </a>
           </Link>
 
@@ -33,31 +33,12 @@ export default function Home() {
             <h3>RSVP &rarr;</h3>
             <img src="qrcode_1879.png" width="150px"></img>
           </a>
-
-          <a href="https://github.com/vercel/next.js/tree/master/examples" className="card">
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
-          </a>
         </div>
+        <h2>Schedule of Events</h2>
+        <p className="description">
+          Coming Soon...
+        </p>
       </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by <img src="/vercel.svg" alt="Vercel" className="logo" />
-        </a>
-      </footer>
 
       <style jsx>{`
         .container {
@@ -74,25 +55,6 @@ export default function Home() {
           flex: 1;
           display: flex;
           flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
           justify-content: center;
           align-items: center;
         }
@@ -151,6 +113,7 @@ export default function Home() {
         .card {
           margin: 1rem;
           flex-basis: 45%;
+          align-self: stretch;
           padding: 1.5rem;
           text-align: left;
           color: inherit;
