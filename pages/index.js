@@ -29,9 +29,17 @@ export default function Home() {
             </a>
           </Link>
 
-          <a href="	https://barrioings.online-rsvp.com" className="card">
+          <a href="https://barrioings.online-rsvp.com" className="card">
             <h3>RSVP &rarr;</h3>
             <img src="qrcode_1879.png" width="150px"></img>
+          </a>
+          <a href="https://www.marriott.com/events/start.mi?id=1646233047781&key=GRP" className="card">
+            <h3>Hotel Reservations &rarr;</h3>
+            <p>User our hotel room block for your stay</p>
+          </a>
+          <a href="mailto:dylan@dgoings.com" className="card">
+            <h3>Questions? &rarr;</h3>
+            <p>Email Dylan with whatever's on your mind!</p>
           </a>
         </div>
         <h2>Schedule of Events</h2>
