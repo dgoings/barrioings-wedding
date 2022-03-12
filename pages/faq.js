@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import Link from 'next/link'
 
-export default function Home() {
+export default function Faq() {
   return (
     <div className="container">
       <Head>
@@ -14,24 +13,18 @@ export default function Home() {
         <h2>brought to you by Elizabeth Barrios & Dylan Goings</h2>
 
         <p className="description">
-          Friday, June 24th, 2022
-        </p>
-        <p className="description">
-          <a href="https://goo.gl/maps/Ge6i28KAUbpqtEdU7">Ypsilanti Freighthouse</a><br />
-          100 Market Pl, Ypsilanti, MI 48198
+          Frequently Asked Questions
         </p>
 
         <div className="grid">
-          <Link href="/faq">
-            <a className="card">
-              <h3>FAQs &rarr;</h3>
-              <p>Find in-depth information about Next.js features and API.</p>
-            </a>
-          </Link>
+          <a href="https://nextjs.org/docs" className="card">
+            <h3>Documentation &rarr;</h3>
+            <p>Find in-depth information about Next.js features and API.</p>
+          </a>
 
-          <a href="	https://barrioings.online-rsvp.com" className="card">
-            <h3>RSVP &rarr;</h3>
-            <img src="qrcode_1879.png" width="150px"></img>
+          <a href="https://nextjs.org/learn" className="card">
+            <h3>Learn &rarr;</h3>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
           <a href="https://github.com/vercel/next.js/tree/master/examples" className="card">
