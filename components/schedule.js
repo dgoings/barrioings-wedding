@@ -20,9 +20,94 @@ export default function Schedule() {
           TBD
         </div>
       </div>
-      <div className="sch_left hidden">
-
+      <div className="sch_left">
+        <div className="sch_date">
+          June 24, 2022
+        </div>
+        <div className="sch_day">
+          Friday
+        </div>
       </div>
+      <div className="sch_right">
+        <div className="sch_time">
+          6:00pm <span className="bullet_spacer">•</span><span className="sch_time_header">Cocktail hour</span>
+        </div>
+        <div className="sch_desc">
+          Everything is happening at a single venue. We'll start with drinks and appetizers
+        </div>
+        <div className="sch_location">
+          The Freighthouse
+        </div>
+      </div>
+      <div className="sch_left hidden"></div>
+      <div className="sch_right">
+        <div className="sch_time">
+          7:00pm <span className="bullet_spacer">•</span><span className="sch_time_header">Dinner</span>
+        </div>
+        <div className="sch_desc">
+          That's right, we're going straight into dinner.
+        </div>
+      </div>
+      <div className="sch_left hidden"></div>
+      <div className="sch_right">
+        <div className="sch_time">
+          8:00pm <span className="bullet_spacer">•</span><span className="sch_time_header">Ceremony</span>
+        </div>
+        <div className="sch_desc">
+          We'll make it official while everyone is digesting.
+        </div>
+      </div>
+      <div className="sch_left hidden"></div>
+      <div className="sch_right">
+        <div className="sch_time">
+          8:20pm <span className="bullet_spacer">•</span><span className="sch_time_header">Desserts & Coffee</span>
+        </div>
+        <div className="sch_desc">
+          Let's eat cake and get caffeinated!
+        </div>
+      </div>
+      <div className="sch_left hidden"></div>
+      <div className="sch_right">
+        <div className="sch_time">
+          8:35pm <span className="bullet_spacer">•</span><span className="sch_time_header">Let's Party</span>
+        </div>
+        <div className="sch_desc">
+          Dance time
+        </div>
+      </div>
+      <div className="sch_left hidden"></div>
+      <div className="sch_right">
+        <div className="sch_time">
+          11:00pm <span className="bullet_spacer">•</span><span className="sch_time_header">Venue closes</span>
+        </div>
+        <div className="sch_desc">
+          You don't have to go home but you can't stay here
+        </div>
+        <div className="sch_location">
+          TBD
+        </div>
+      </div>
+      <div className="sch_left">
+        <div className="sch_date">
+          June 25, 2022
+        </div>
+        <div className="sch_day">
+          Saturday
+        </div>
+      </div>
+      <div className="sch_right">
+        <div className="sch_time">
+          10:00am <span className="bullet_spacer">•</span><span className="sch_time_header">Brunch/picnic</span>
+        </div>
+        <div className="sch_desc">
+          Hang out with us the following morning and reminisce
+        </div>
+        <div className="sch_location">
+          TBD
+        </div>
+      </div>
+
+
 
       <style jsx>{`
         div {
@@ -79,6 +164,7 @@ export default function Schedule() {
           color: black;
           text-decoration: none;
           text-transform: uppercase;
+          padding-left: 5px;
         }
         .sch_desc {
           margin-top: 12px;
@@ -87,13 +173,11 @@ export default function Schedule() {
         .sch_location {
           color: grey;
           text-transform: uppercase;
-          font-size: 12px;
-          margin-top: 5px;
+          font-size: 14px;
         }
         .sch_location:before {
-          content: '\e096';
-          font-family: simple-line-icons;
-          font-size: 10px;
+          content: '\e55f';
+          font-family: 'Material Icons';
           color: rgb(255,219,166);
           margin-right: 5px;
         }

@@ -8,6 +8,11 @@ export default function Home() {
       <Head>
         <title>The Barrioings Wedding</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora:wght@500&family=Work+Sans:wght@300&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet" />
       </Head>
       <div className="header_container">
         <h1 className="title">Welcome to the Barrioings Wedding</h1>
@@ -53,7 +58,7 @@ export default function Home() {
             <p>Email Dylan with whatever's on your mind!</p>
           </a>
         </div>
-        <h2>Schedule of Events</h2>
+        <h2 className="schedule_header">Schedule of Events</h2>
         <Schedule />
       </main>
 
@@ -107,6 +112,14 @@ export default function Home() {
           justify-content: center;
           align-items: center;
           background-color: white;
+          font-family: "Work Sans";
+          color: rgb(82, 82, 82);
+        }
+
+        .intro {
+          max-width: 500px;
+          padding: 2rem 0;
+          line-height: 1.6;
         }
 
         a {
@@ -139,15 +152,6 @@ export default function Home() {
         .description {
           line-height: 1.5;
           font-size: 1.5rem;
-        }
-
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
-            Courier New, monospace;
         }
 
         .grid {
@@ -193,6 +197,11 @@ export default function Home() {
           height: 1em;
         }
 
+        .schedule_header {
+          font-family: "Lora";
+          font-size: 24px;
+        }
+
         @media (max-width: 600px) {
           .grid {
             width: 100%;
@@ -212,6 +221,7 @@ export default function Home() {
 
         * {
           box-sizing: border-box;
+          font-size: 16px;
         }
       `}</style>
     </div>
