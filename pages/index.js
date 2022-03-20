@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Schedule from '../components/schedule'
 
 export default function Home() {
   return (
@@ -8,11 +9,9 @@ export default function Home() {
         <title>The Barrioings Wedding</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main>
+      <div className="header_container">
         <h1 className="title">Welcome to the Barrioings Wedding</h1>
         <h2>brought to you by Elizabeth Barrios & Dylan Goings</h2>
-
         <p className="description">
           Friday, June 24th, 2022, 6:00pm EST
         </p>
@@ -20,7 +19,9 @@ export default function Home() {
           <a href="https://goo.gl/maps/Ge6i28KAUbpqtEdU7">Ypsilanti Freighthouse</a><br />
           100 Market Pl, Ypsilanti, MI 48198
         </p>
-
+      </div>
+      <div className="background_block"></div>
+      <main>
         <div className="grid">
           <Link href="/faq">
             <a className="card">
@@ -43,28 +44,59 @@ export default function Home() {
           </a>
         </div>
         <h2>Schedule of Events</h2>
-        <p className="description">
-          Coming Soon...
-        </p>
+        <Schedule />
       </main>
 
       <style jsx>{`
         .container {
           min-height: 100vh;
-          padding: 0 0.5rem;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
         }
 
-        main {
-          padding: 5rem 0;
-          flex: 1;
+        .header_container {
+          z-index: 1;
           display: flex;
+          flex-direction: column;
+          justify-column: space-between;
+          height: 100vh;
+          max-height: 100vh;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          padding: 5rem 0;
+          text-align: center;
+          background-image: url('/couple1.jpg');
+          background-position: 50%;
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: margin-top 0.2s;
+        }
+        .header_container p {
+          background-color: rgba(255,255,255,50%);
+        }
+        .background_block {
+          pointer-events: none;
+          height: 100vh;
+          max-height: 100vh;
+        }
+
+        main {
+          z-index: 3;
+          overflow: visible;
+          min-height: 101vh;
+          width: 100%;
+          transition: margin-top 0.4s;
+          margin-bottom: -100vh;
+          padding: 5rem 0;
+          display: flex;
+          flex: 1;
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          background-color: white;
         }
 
         a {
