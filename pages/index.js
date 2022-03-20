@@ -23,6 +23,16 @@ export default function Home() {
       <div className="background_block"></div>
       <main>
         <div className="grid">
+          <div className="intro">
+            <p>We're getting married, mainly because we needed an excuse to throw a dance party!</p>
+
+            <p>It turns out there's still a global pandemic happening, but we're pushing ahead.
+              We want to see all your lovely faces and create a safe environment for us to revel in each others company.</p>
+
+            <p>We're planning to host some non-traditional events both the day before and the day after the wedding for different groups of family and friends.
+              We'll communicate more details as we have them.
+              For now, please plan your travel to be here on Friday and Saturday, and if you're able to, on Thursday evening as well.</p>
+          </div>
           <Link href="/faq">
             <a className="card">
               <h3>FAQs &rarr;</h3>
@@ -90,7 +100,7 @@ export default function Home() {
           width: 100%;
           transition: margin-top 0.4s;
           margin-bottom: -100vh;
-          padding: 5rem 0;
+          padding: 2rem 0;
           display: flex;
           flex: 1;
           flex-direction: column;
@@ -145,9 +155,7 @@ export default function Home() {
           align-items: center;
           justify-content: center;
           flex-wrap: wrap;
-
           max-width: 800px;
-          margin-top: 3rem;
         }
 
         .card {
