@@ -17,28 +17,43 @@ export default function Faq() {
           Frequently Asked Questions
         </p>
         <ul className="faqlist">
-          <li className="toc">Table of Contents:</li>
-          <li><Link href="/faq#location">Where is the wedding taking place?</Link></li>
-          <li><Link href="/faq#schedule">What time is the ceremony? What time is the reception?</Link></li>
+          <li className="toc">Dress Code & Gifts</li>
           <li><Link href="/faq#dresscode">What is the dress code? What should I wear? Is there a theme?</Link></li>
           <li><Link href="/faq#weather">What weather should I expect?</Link></li>
           <li><Link href="/faq#indoor">Will the wedding be indoors or outdoors?</Link></li>
-          <li><Link href="/faq#transportation">Will transportation be provided? Is there parking at the venue(s)?</Link></li>
-          <li><Link href="/faq#events">Are there other wedding events I can attend?</Link></li>
+          <li><Link href="/faq#registry">Are you registered? Where should we ship your gift?</Link></li>
+          <li><Link href="/faq#pictures">You want me to bring/ship you a framed picture? Can you be more specific about this?</Link></li>
+        </ul>
+        <ul className="faqlist">
+          <li className="toc">COVID Protocols</li>
+          <li><Link href="/faq#covid">What COVID health and safety measures will you be taking during the event?</Link></li>
+        </ul>
+        <ul className="faqlist">
+          <li className="toc">What Do I Need To Know About The Event</li>
+          <li><Link href="/faq#location">Where is the wedding taking place?</Link></li>
+          <li><Link href="/faq#schedule">What time is the ceremony? What time is the reception?</Link></li>
           <li><Link href="/faq#rsvp">How do I RSVP?</Link></li>
           <li><Link href="/faq#rsvpdeadline">When is the RSVP deadline?</Link></li>
           <li><Link href="/faq#kids">Can I bring my kids? Will there be a babysitter?</Link></li>
           <li><Link href="/faq#plusone">Can I bring my partner/spouse/romantic other?</Link></li>
           <li><Link href="/faq#virtual">I can’t attend the wedding in person. Will there be a virtual wedding celebration?</Link></li>
-          <li><Link href="/faq#hotel">Do you have a hotel block for guests? Where do you recommend I stay?</Link></li>
-          <li><Link href="/faq#accessibility">Are the ceremony and reception location wheelchair accessible?</Link></li>
           <li><Link href="/faq#food">What type of food and drink will be served during the cocktail hour and reception?</Link></li>
           <li><Link href="/faq#diet">I have dietary restrictions, what’s the best way to communicate that with you?</Link></li>
           <li><Link href="/faq#bar">Will there be an open bar?</Link></li>
-          <li><Link href="/faq#registry">Are you registered? Where should we ship your gift?</Link></li>
-          <li><Link href="/faq#pictures">You want me to bring/ship you a framed picture? Can you be more specific about this?</Link></li>
           <li><Link href="/faq#social">Can I take and post pictures of the wedding on social media?</Link></li>
-          <li><Link href="/faq#covid">What COVID health and safety measures will you be taking during the event?</Link></li>
+        </ul>
+        <ul className="faqlist">
+          <li className="toc">Lodging and Transport</li>
+          <li><Link href="/faq#hotel">Do you have a hotel block for guests? Where do you recommend I stay?</Link></li>
+          <li><Link href="/faq#transportation">Will transportation be provided? Is there parking at the venue(s)?</Link></li>
+          <li><Link href="/faq#accessibility">Are the ceremony and reception location wheelchair accessible?</Link></li>
+        </ul>
+        <ul className="faqlist">
+          <li className="toc">Other Events We Hope You Can Attend</li>
+          <li><Link href="/faq#events">Are there other wedding events I can attend?</Link></li>
+        </ul>
+        <ul className="faqlist">
+          <li className="toc">Other Questions</li>
           <li><Link href="/faq#unanswered">I have a question that I just can’t find the answer to, what is the best way to contact you?</Link></li>
         </ul>
 
@@ -73,12 +88,10 @@ export default function Faq() {
             <p className="answer">Yes! Our hope is to create opportunities to catch up with our guests outside of the wedding reception itself, so we have organized three different events open to all guests. No RSVP necessary, however letting us know whether you are planning to attend would be greatly appreciated.</p>
             <p className="answer"><b>Thursday, June 23rd, 7:30-930pm:</b> There will be an informal gathering with desserts and drinks hosted at Dylan’s mom’s house.</p>
             <p className="answer"><b>Saturday, June 25th:</b> Dylan and Elizabeth will host a brunch consisting of bagels and coffee at their house for all guests starting at 11am.</p>
-            <p className="answer"><b>Saturday evening:</b> We are planning to attend the <a href="https://a2sf.org/">A2 Summer Festival</a> at the University of Michigan, which is free and open to the public. Our plan is to show up at around 6pm, with some chairs and blankets. This is not an exclusive event for our wedding, just an opportunity for additional socializing with all our friends and family who’d like to join us for some live music!
-            <ul>
-              <li><a href="https://a2sf.org/events/canopy-by-pneuhaus-and-bike-powered-events/">Canopy by Pinehouse, 6pm</a></li>
-              <li><a href="https://a2sf.org/events/ladama/">LATAMA Concert, 8:30pm</a></li>
-            </ul>
-            Closer to the date we will provide more information about getting to the A2 Summer Festival.</p>
+            <p className="answer"><b>Saturday evening:</b> We are planning to attend the <a href="https://a2sf.org/">A2 Summer Festival</a> at the University of Michigan, which is free and open to the public. Our plan is to show up at around 6pm, with some chairs and blankets. This is not an exclusive event for our wedding, just an opportunity for additional socializing with all our friends and family who’d like to join us for some live music!</p>
+            <p className="answer bullet"><a href="https://a2sf.org/events/canopy-by-pneuhaus-and-bike-powered-events/">Canopy by Pinehouse, 6pm</a></p>
+            <p className="answer bullet"><a href="https://a2sf.org/events/ladama/">LATAMA Concert, 8:30pm</a></p>
+            <p className="answer">Closer to the date we will provide more information about getting to the A2 Summer Festival.</p>
           </li>
           <li id="rsvp">
             <p className="question">How do I RSVP?<Link href="/faq">🔝</Link></p>
@@ -219,9 +232,9 @@ export default function Faq() {
         }
 
         ul {
-          margin: 1rem;
+          margin: 0;
           padding: 1.5rem;
-          max-width: 800px;
+          min-width: 800px;
         }
 
         .faqlist {
@@ -240,10 +253,11 @@ export default function Faq() {
 
         .faqs {
           list-style-type: none;
+          max-width: 800px;
         }
 
         .faqs li {
-          margin: 1rem 0;
+          margin: 2rem 0;
         }
 
         .faqs li p {
@@ -259,6 +273,10 @@ export default function Faq() {
         .faqs li p.answer {
           margin-top: 0.5rem;
           font-size: 1.2rem;
+        }
+
+        .faqs li p.answer.bullet {
+          padding-left: 1rem;
         }
 
         @media (max-width: 600px) {
