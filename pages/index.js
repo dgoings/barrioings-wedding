@@ -58,7 +58,7 @@ export default function Home() {
             <p>Email Dylan with whatever's on your mind!</p>
           </a>
         </div>
-        <h2 className="schedule_header">Schedule of Events</h2>
+        <h2 className="schedule_header" id="schedule">Schedule of Events</h2>
         <Schedule />
       </main>
 
