@@ -90,7 +90,7 @@ export default function Home() {
           transition: margin-top 0.2s;
         }
         .header_container p {
-          background-color: rgba(255,255,255,50%);
+          background-color: hsla(35,100%,72%,50%);
         }
         .background_block {
           pointer-events: none;
@@ -122,22 +122,6 @@ export default function Home() {
           line-height: 1.6;
         }
 
-        a {
-          // color: inherit;
-          // text-decoration: none;
-        }
-
-        .title a {
-          color: #0070f3;
-          text-decoration: none;
-        }
-
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
-        }
-
         .title {
           margin: 0;
           line-height: 1.15;
@@ -147,6 +131,7 @@ export default function Home() {
         .title,
         .description {
           text-align: center;
+          font-family: "Lora";
         }
 
         .description {
