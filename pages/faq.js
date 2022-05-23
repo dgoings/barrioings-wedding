@@ -7,6 +7,11 @@ export default function Faq() {
       <Head>
         <title>The Barrioings Wedding</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora:wght@500&family=Work+Sans:wght@300&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet" />
       </Head>
 
       <main>
@@ -94,18 +99,16 @@ export default function Faq() {
             <li id="events">
               <p className="question">Are there other wedding events I can attend?<Link href="/faq"><a>🔝</a></Link></p>
               <p className="answer">Yes! Our hope is to create opportunities to catch up with our guests outside of the wedding reception itself, so we have organized three different events open to all guests. No RSVP necessary, drop by and stay as long as you wish.Letting us know which events you are planning to attend would be greatly appreciated.</p>
-              <p className="answer"><b>Thursday, June 23rd, 7:30-10:00pm - </b>Weather permitting, there will be an informal gathering with desserts and drinks hosted at Dylan’s mom’s house:
-                <blockquote>
-                  704 Patricia Avenue
-                  <br />Ann Arbor, MI 48104
-                </blockquote>
-              </p>
-              <p className="answer"><b>Saturday, June 25th, 11:00am - </b>Dylan and Elizabeth will host a brunch consisting of bagels and coffee for all guests at their house:
-                <blockquote>
-                  703 Collegewood Street
-                  <br />Ypsilanti, MI 48197
-                </blockquote>
-              </p>
+              <p className="answer"><b>Thursday, June 23rd, 7:30-10:00pm - </b>Weather permitting, there will be an informal gathering with desserts and drinks hosted at Dylan’s mom’s house:</p>
+              <blockquote>
+                704 Patricia Avenue
+                <br />Ann Arbor, MI 48104
+              </blockquote>
+              <p className="answer"><b>Saturday, June 25th, 11:00am - </b>Dylan and Elizabeth will host a brunch consisting of bagels and coffee for all guests at their house:</p>
+              <blockquote>
+                703 Collegewood Street
+                <br />Ypsilanti, MI 48197
+              </blockquote>
               <p className="answer"><b>Saturday evening:</b> We are planning to attend the <a href="https://a2sf.org/">A2 Summer Festival</a> at the University of Michigan, which is free and open to the public. Our plan is to show up at around 6pm, with some chairs and blankets. This is not an exclusive event for our wedding, just an opportunity for additional socializing with all our friends and family who’d like to join us for some live music!</p>
               <p className="answer bullet"><a href="https://a2sf.org/events/canopy-by-pneuhaus-and-bike-powered-events/">Canopy by Pinehouse, 6pm</a></p>
               <p className="answer bullet"><a href="https://a2sf.org/events/ladama/">LATAMA Concert, 8:30pm</a></p>
@@ -215,6 +218,8 @@ export default function Faq() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          background-color: rgb(255 255 241);
+          color: rgb(70 70 70);
         }
 
         main {
@@ -224,6 +229,7 @@ export default function Faq() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          font-family: "Work Sans";
         }
 
         h1, h2 {

@@ -69,6 +69,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          color: rgb(40 40 40);
         }
 
         .header_container {
@@ -83,14 +84,14 @@ export default function Home() {
           width: 100%;
           padding: 5rem 0;
           text-align: center;
-          background-image: url('/couple1.jpg');
+          background-image: url('/couple2.jpg');
           background-position: 50%;
           background-size: cover;
           background-repeat: no-repeat;
           transition: margin-top 0.2s;
         }
         .header_container p {
-          background-color: hsla(35,100%,72%,50%);
+          background-color: rgba(255 255 241 / 50%);
         }
         .background_block {
           pointer-events: none;
@@ -113,7 +114,19 @@ export default function Home() {
           align-items: center;
           background-color: white;
           font-family: "Work Sans";
-          color: rgb(82, 82, 82);
+          background-color: rgb(255 255 241);
+          color: rgb(70 70 70);
+        }
+
+        a,
+        a:visited {
+          text-decoration: none;
+          font-size: 1.25rem;
+          color: black;
+        }
+
+        a:hover {
+          background-color: #95f6e6;
         }
 
         .intro {
@@ -163,8 +176,8 @@ export default function Home() {
         .card:hover,
         .card:focus,
         .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
+          background-color: #95f6e6;
+          border-color: #95f6e6;
         }
 
         .card h3 {
@@ -206,7 +219,6 @@ export default function Home() {
 
         * {
           box-sizing: border-box;
-          font-size: 16px;
         }
       `}</style>
     </div>
