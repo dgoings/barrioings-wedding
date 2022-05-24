@@ -11,13 +11,15 @@ export default function Schedule() {
       </div>
       <div className="sch_right">
         <div className="sch_time">
-          4:00pm <span className="bullet_spacer">•</span><span className="sch_time_header">Some stuff happens</span>
+          7:30pm <span className="bullet_spacer">•</span><span className="sch_time_header">Desserts and drinks</span>
         </div>
         <div className="sch_desc">
-          We're still figuring it out
+          A social pop-in gathering for all wedding guests the evening before. Stop by and stay as long as you'd like!
         </div>
         <div className="sch_location">
-          TBD
+          Lin Goings' House
+          <br />704 Patricia Avenue
+          <br />Ann Arbor, MI, 48104
         </div>
       </div>
       <div className="sch_left">
@@ -30,10 +32,10 @@ export default function Schedule() {
       </div>
       <div className="sch_right">
         <div className="sch_time">
-          6:00pm <span className="bullet_spacer">•</span><span className="sch_time_header">Cocktail hour</span>
+          5:00pm <span className="bullet_spacer">•</span><span className="sch_time_header">Cocktail hour</span>
         </div>
         <div className="sch_desc">
-          Everything is happening at a single venue. We'll start with drinks and appetizers
+          Everything is happening at a single venue. We'll start with drinks and appetizers.
         </div>
         <div className="sch_location">
           The Freighthouse
@@ -42,7 +44,7 @@ export default function Schedule() {
       <div className="sch_left hidden"></div>
       <div className="sch_right">
         <div className="sch_time">
-          7:00pm <span className="bullet_spacer">•</span><span className="sch_time_header">Dinner</span>
+          6:00pm <span className="bullet_spacer">•</span><span className="sch_time_header">Dinner</span>
         </div>
         <div className="sch_desc">
           That's right, we're going straight into dinner.
@@ -51,7 +53,7 @@ export default function Schedule() {
       <div className="sch_left hidden"></div>
       <div className="sch_right">
         <div className="sch_time">
-          8:00pm <span className="bullet_spacer">•</span><span className="sch_time_header">Ceremony</span>
+          7:15pm <span className="bullet_spacer">•</span><span className="sch_time_header">Ceremony</span>
         </div>
         <div className="sch_desc">
           We'll make it official while everyone is digesting.
@@ -60,16 +62,16 @@ export default function Schedule() {
       <div className="sch_left hidden"></div>
       <div className="sch_right">
         <div className="sch_time">
-          8:20pm <span className="bullet_spacer">•</span><span className="sch_time_header">Desserts & Coffee</span>
+          7:45pm <span className="bullet_spacer">•</span><span className="sch_time_header">Desserts & Coffee</span>
         </div>
         <div className="sch_desc">
-          Let's eat cake and get caffeinated!
+          Let's eat sugar and get caffeinated!
         </div>
       </div>
       <div className="sch_left hidden"></div>
       <div className="sch_right">
         <div className="sch_time">
-          8:35pm <span className="bullet_spacer">•</span><span className="sch_time_header">Let's Party</span>
+          8:00pm <span className="bullet_spacer">•</span><span className="sch_time_header">Let's Party</span>
         </div>
         <div className="sch_desc">
           Dance time
@@ -81,7 +83,7 @@ export default function Schedule() {
           11:00pm <span className="bullet_spacer">•</span><span className="sch_time_header">Venue closes</span>
         </div>
         <div className="sch_desc">
-          You don't have to go home but you can't stay here
+          You don't have to go home but you can't stay here.
         </div>
         <div className="sch_location">
           TBD
@@ -97,13 +99,43 @@ export default function Schedule() {
       </div>
       <div className="sch_right">
         <div className="sch_time">
-          10:00am <span className="bullet_spacer">•</span><span className="sch_time_header">Brunch/picnic</span>
+          11:00am <span className="bullet_spacer">•</span><span className="sch_time_header">Brunch/picnic</span>
         </div>
         <div className="sch_desc">
-          Hang out with us the following morning and reminisce
+          Hang out with us the following morning and reminisce. Bagels, donuts, and coffee provided.
         </div>
         <div className="sch_location">
-          TBD
+          Elizabeth & Dylan's House
+          <br />703 Collegewood St.
+          <br />Ypsilanti, MI, 48197
+        </div>
+      </div>
+      <div className="sch_left hidden"></div>
+      <div className="sch_right">
+        <div className="sch_time">
+          6:00pm <span className="bullet_spacer">•</span><span className="sch_time_header">A2 Summer Festival</span>
+        </div>
+        <div className="sch_desc">
+          Join us at the Canopy installation at Ann Arbor's downtown outdoor summer festival.
+          <br />This isn't an exclusive event for our wedding, we'll be hanging out with the masses.
+        </div>
+        <div className="sch_location">
+          915 E. Washington Street
+          <br />Ann Arbor, MI 48109
+        </div>
+      </div>
+      <div className="sch_left hidden"></div>
+      <div className="sch_right">
+        <div className="sch_time">
+          8:30pm <span className="bullet_spacer">•</span><span className="sch_time_header"><a href="https://a2sf.org/events/ladama/">LADAMA concert</a></span>
+        </div>
+        <div className="sch_desc">
+          Join us for a public concert at Ann Arbor's downtown outdoor summer festival.
+          <br />This isn't an exclusive event for our wedding, we'll be hanging out with the masses.
+        </div>
+        <div className="sch_location">
+          915 E. Washington Street
+          <br />Ann Arbor, MI 48109
         </div>
       </div>
 
