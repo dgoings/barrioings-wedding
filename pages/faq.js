@@ -111,7 +111,7 @@ export default function Faq() {
               </blockquote>
               <p className="answer"><b>Saturday evening:</b> We are planning to attend the <a href="https://a2sf.org/">A2 Summer Festival</a> at the University of Michigan, which is free and open to the public. Our plan is to show up at around 6pm, with some chairs and blankets. This is not an exclusive event for our wedding, just an opportunity for additional socializing with all our friends and family who’d like to join us for some live music!</p>
               <p className="answer bullet"><a href="https://a2sf.org/events/canopy-by-pneuhaus-and-bike-powered-events/">Canopy by Pinehouse, 6pm</a></p>
-              <p className="answer bullet"><a href="https://a2sf.org/events/ladama/">LATAMA Concert, 8:30pm</a></p>
+              <p className="answer bullet"><a href="https://a2sf.org/events/ladama/">LADAMA Concert, 8:30pm</a></p>
               <p className="answer">Closer to the date we will provide more information about getting to the A2 Summer Festival.</p>
             </li>
             <li id="rsvp">
