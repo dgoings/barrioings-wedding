@@ -44,16 +44,16 @@ export default function Schedule() {
       <div className="sch_left hidden"></div>
       <div className="sch_right">
         <div className="sch_time">
-          6:00pm <span className="bullet_spacer">•</span><span className="sch_time_header">Dinner</span>
+          5:45pm <span className="bullet_spacer">•</span><span className="sch_time_header">Dinner</span>
         </div>
         <div className="sch_desc">
-          That's right, we're going straight into dinner.
+          That's right, we're going straight into dinner. Hope you ate a light lunch.
         </div>
       </div>
       <div className="sch_left hidden"></div>
       <div className="sch_right">
         <div className="sch_time">
-          7:15pm <span className="bullet_spacer">•</span><span className="sch_time_header">Ceremony</span>
+          6:45pm <span className="bullet_spacer">•</span><span className="sch_time_header">Ceremony</span>
         </div>
         <div className="sch_desc">
           We'll make it official while everyone is digesting.
@@ -62,7 +62,7 @@ export default function Schedule() {
       <div className="sch_left hidden"></div>
       <div className="sch_right">
         <div className="sch_time">
-          7:45pm <span className="bullet_spacer">•</span><span className="sch_time_header">Desserts & Coffee</span>
+          7:15pm <span className="bullet_spacer">•</span><span className="sch_time_header">Desserts & Coffee</span>
         </div>
         <div className="sch_desc">
           Let's eat sugar and get caffeinated!
@@ -71,7 +71,7 @@ export default function Schedule() {
       <div className="sch_left hidden"></div>
       <div className="sch_right">
         <div className="sch_time">
-          8:00pm <span className="bullet_spacer">•</span><span className="sch_time_header">Let's Party</span>
+          7:30pm <span className="bullet_spacer">•</span><span className="sch_time_header">Let's Party</span>
         </div>
         <div className="sch_desc">
           Dance time
