@@ -53,19 +53,19 @@ export default function Schedule() {
       <div className="sch_left hidden"></div>
       <div className="sch_right">
         <div className="sch_time">
-          6:45pm <span className="bullet_spacer">•</span><span className="sch_time_header">Ceremony</span>
+          6:30pm <span className="bullet_spacer">•</span><span className="sch_time_header">Desserts & Coffee</span>
         </div>
         <div className="sch_desc">
-          We'll make it official while everyone is digesting.
+          Let's eat sugar and get caffeinated!
         </div>
       </div>
       <div className="sch_left hidden"></div>
       <div className="sch_right">
         <div className="sch_time">
-          7:15pm <span className="bullet_spacer">•</span><span className="sch_time_header">Desserts & Coffee</span>
+          6:45pm <span className="bullet_spacer">•</span><span className="sch_time_header">Ceremony</span>
         </div>
         <div className="sch_desc">
-          Let's eat sugar and get caffeinated!
+          We'll make it official while everyone is digesting.
         </div>
       </div>
       <div className="sch_left hidden"></div>
