@@ -71,7 +71,7 @@ export default function Schedule() {
       <div className="sch_left hidden"></div>
       <div className="sch_right">
         <div className="sch_time">
-          7:30pm <span className="bullet_spacer">•</span><span className="sch_time_header">Let's Party</span>
+          7:15pm <span className="bullet_spacer">•</span><span className="sch_time_header">Let's Party</span>
         </div>
         <div className="sch_desc">
           Dance time
