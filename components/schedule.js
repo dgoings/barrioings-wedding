@@ -99,10 +99,10 @@ export default function Schedule() {
       </div>
       <div className="sch_right">
         <div className="sch_time">
-          11:00am <span className="bullet_spacer">•</span><span className="sch_time_header">Brunch/picnic</span>
+          11:00am <span className="bullet_spacer">•</span><span className="sch_time_header">Late morning socializing</span>
         </div>
         <div className="sch_desc">
-          Hang out with us the following morning and reminisce. Bagels, donuts, and coffee provided.
+          Hang out with us at our home the following morning and reminisce. We'll have bagels, donuts, and coffee.
         </div>
         <div className="sch_location">
           Elizabeth & Dylan's House
