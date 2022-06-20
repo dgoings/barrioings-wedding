@@ -78,7 +78,7 @@ export default function Faq() {
             </li>
             <li id="dresscode">
               <p className="question">What is the dress code? What should I wear? Is there a theme?<Link href="/faq"><a>🔝</a></Link></p>
-              <p className="answer">We don’t have a theme or official wedding colors. Attire is semi-formal.</p>
+              <p className="answer">We don’t have a theme or official wedding colors. Attire is whatever outfit you're going to be happy wearing.</p>
               <p className="answer">Dylan and Elizabeth value fun and creativity over convention. Vintage, non-traditional, very traditional, gender-queer outfits are all encouraged. The more memorable you can make this for us, the better!</p>
             </li>
             <li id="weather">
